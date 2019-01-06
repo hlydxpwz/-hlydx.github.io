@@ -1,7 +1,7 @@
-var w,h,ratio,ratio_h,totalFronts,front1,front2,front3,front4,front5,front6,front7,front8,front9,front11,front12,front13,front14,front15,front16,front17;
+var w,h,ratio,ratio_h,totalFronts,front1,front2,front3,front4,front5,front6,front7,front8,front9,front11,front12,front13,front14,front15,front16,front17,front18;
 w = $(window).width();
 h = $(window).height();
-totalFronts = 17;
+totalFronts = 18;
 
 //set changing point
 front1 = $("#front1").offset().top - h;
@@ -21,6 +21,7 @@ front14 = $("#front14").offset().top - h;
 front15 = $("#front15").offset().top - h;
 front16 = $("#front16").offset().top - h;
 front17 = $("#front17").offset().top - h;
+front18 = $("#front18").offset().top - h;
 //建立一个都是0的array，多少个front多少个0
 var section = [];
 for(var i=0; i<=totalFronts-1; i++){

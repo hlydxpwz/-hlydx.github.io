@@ -70,11 +70,11 @@
   display:none;
 }
 
-#front17{
+#front18{
   background-color: #275167;
 }
  
-#front9,#front8,#front10,#front11,#front12,#front13,#front14,#front15{
+#front8,#front10,#front11,#front12,#front13,#front14,#front15,#front16{
   width:300px;
   margin-right:50px;
   float: right;
@@ -191,6 +191,20 @@ footer{
        background-color: rgba(255,255,255,0.7);
        padding: 10px;
       }
+
+
+      #center1{
+       height: 140px;
+       margin-top:-450px;
+       z-index: 50000;
+       position: absolute;
+       width: 50%;
+       margin-left:25%;
+       margin-right: 25%;
+       background-color: rgba(255,255,255,0.7);
+       padding: 10px;
+      }
+
 
           .credit{
             font-size:16px;

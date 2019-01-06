@@ -398,9 +398,33 @@ $(window).scroll(function(){
 
 	}
 
-	if(windowTop >= front9 && windowTop < front10 && section[8]==0){
-		main8();
+
+if(windowTop >= front9 && windowTop < front10 && section[8]==0){
 		changeSection(8)
+		  main8();
+		  disappear1()
+		  disappear2()
+		  disappear3()
+		  disappear4()
+		  disappear5()
+		  disappear6()
+		  disappear7()
+		  disappear8()
+		  disappear9()
+		  disappear10()
+		  disappear11()
+		  disappear12()
+		  disappear13()
+		  disappear14()
+		  disappear15()
+
+	}
+
+
+
+	if(windowTop >= front10 && windowTop < front11 && section[9]==0){
+		main9();
+		changeSection(9)
 		show8()
 		 disappear1()
 		 disappear2()
@@ -420,9 +444,9 @@ $(window).scroll(function(){
 
 	}
 
-	if(windowTop >= front10 && windowTop < front11 && section[9]==0){
-		main9();
-		changeSection(9)
+	if(windowTop >= front11 && windowTop < front12 && section[10]==0){
+		main10();
+		changeSection(10)
 		show9()
 		 disappear1()
 		 disappear2()
@@ -442,9 +466,9 @@ $(window).scroll(function(){
 
 	}
 
-	if(windowTop >= front11 && windowTop < front12 && section[10]==0){
-		main10();
-		changeSection(10)
+	if(windowTop >= front12 && windowTop < front13 && section[11]==0){
+		main11();
+		changeSection(11)
 		show10()
 		 disappear1()
 		 disappear2()
@@ -464,9 +488,9 @@ $(window).scroll(function(){
 
 	}
 
-	if(windowTop >= front12 && windowTop < front13 && section[11]==0){
-		main11();
-		changeSection(11)
+	if(windowTop >= front13 && windowTop < front14 && section[12]==0){
+		main12();
+		changeSection(12)
 		show11()
 		 disappear1()
 		 disappear2()
@@ -486,9 +510,9 @@ $(window).scroll(function(){
 
 	}
 
-	if(windowTop >= front13 && windowTop < front14 && section[12]==0){
-		main12();
-		changeSection(12)
+	if(windowTop >= front14 && windowTop < front15 && section[13]==0){
+		main13();
+		changeSection(13)
 		show12()
 		 disappear1()
 		 disappear2()
@@ -508,9 +532,9 @@ $(window).scroll(function(){
 
 	}
 
-    if(windowTop >= front14 && windowTop < front15 && section[13]==0){
-		main13();
-		changeSection(13)
+    if(windowTop >= front15 && windowTop < front16 && section[14]==0){
+		main14();
+		changeSection(14)
 		show13()
 		 disappear1()
 		 disappear2()
@@ -529,10 +553,10 @@ $(window).scroll(function(){
 
 	}
 
-	if(windowTop >= front15 && windowTop < front16 && section[14]==0){
+	if(windowTop >= front16 && windowTop < front17 && section[15]==0){
 		if(e==0){
-		main14();
-		changeSection(14)
+		main15();
+		changeSection(15)
 		show14()
 		 disappear1()
 		 disappear2()
@@ -550,7 +574,7 @@ $(window).scroll(function(){
 		   disappear15()
 		   	e=1;
 		}else{
-			changeSection(14)
+			changeSection(15)
 		show14()
 		 disappear1()
 		 disappear2()
@@ -569,10 +593,10 @@ $(window).scroll(function(){
 		}
 	}
 
-	if(windowTop >= front16 && windowTop < front17 &&section[15]==0){
+	if(windowTop >= front17 && windowTop < front18 &&section[16]==0){
 		if(f==0){
-		main15();
-		changeSection(15)
+		main16();
+		changeSection(16)
 		show15()
 		 disappear1()
 		 disappear2()
@@ -590,7 +614,7 @@ $(window).scroll(function(){
 		  disappear14()
 		  		f=1;
 		}else{
-			changeSection(15)
+			changeSection(16)
 		show15()
 		 disappear1()
 		 disappear2()
@@ -609,9 +633,9 @@ $(window).scroll(function(){
 		}
 	}
 
-	if(windowTop >= front17 &&  section[16]==0){
-		main16();
-		changeSection(16)
+	if(windowTop >= front18 &&  section[17]==0){
+		main17();
+		changeSection(17)
 		 disappear1()
 		 disappear2()
 		  disappear3()

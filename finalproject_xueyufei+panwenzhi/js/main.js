@@ -716,34 +716,39 @@ setupIsotope();
 
 function main8(){
 	console.log("8")
-	$("#highlight1").css("display","block")}
+	
+}
 
 function main9(){
 	console.log("9")
-	$("#highlight2").css("display","block")
-}
+	$("#highlight1").css("display","block")}
 
 function main10(){
 	console.log("10")
-	$("#highlight3").css("display","block")
+	$("#highlight2").css("display","block")
 }
 
 function main11(){
 	console.log("11")
-	$("#highlight4").css("display","block")}
+	$("#highlight3").css("display","block")
+}
 
 function main12(){
 	console.log("12")
-	$("#highlight5").css("display","block")
-}
+	$("#highlight4").css("display","block")}
 
 function main13(){
 	console.log("13")
-	$("#highlight6").css("display","block")
+	$("#highlight5").css("display","block")
 }
 
 function main14(){
 	console.log("14")
+	$("#highlight6").css("display","block")
+}
+
+function main15(){
+	console.log("15")
     var fullwidth = 300;
     var fullheight = 300;
 
@@ -963,8 +968,8 @@ function main14(){
     }
 
    
-    function main15(){
-	console.log("15")
+    function main16(){
+	console.log("16")
 	    var fullwidth = 450;
 		var fullheight = 450;
 
@@ -1223,7 +1228,7 @@ function main14(){
     }
 
 
-function main16(){
-	console.log("16")
+function main17(){
+	console.log("17")
 	
 }
